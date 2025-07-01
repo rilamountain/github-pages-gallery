@@ -1,7 +1,8 @@
 import '@/styles/globals.css'
 import { ReactNode } from 'react'
+import type { Metadata } from 'next'
 
-export const metadata = {
+export const metadata: Metadata = {
   title: '239Wine – Your Curated Wine Companion',
   description: 'Browse your curated list of 239 wines with pairing suggestions and more.',
 }
